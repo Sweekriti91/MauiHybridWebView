@@ -4,7 +4,5 @@
              x:Class="MauiReactJSHybridApp.NewsFeedPage"
              xmlns:hwv="clr-namespace:HybridWebView;assembly=HybridWebView"
              Title="NewsFeedPage">
-    <VerticalStackLayout>
         <hwv:HybridWebView Grid.Row="1" x:Name="myHybridWebView" HybridAssetRoot="ReactTodoApp" />
-    </VerticalStackLayout>
 </ContentPage>
