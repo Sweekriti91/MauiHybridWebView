@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiReactJSHybridApp", "MauiReactJSHybridApp.csproj", "{FE773E9E-2E8D-440B-B381-36080942B988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE773E9E-2E8D-440B-B381-36080942B988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE773E9E-2E8D-440B-B381-36080942B988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE773E9E-2E8D-440B-B381-36080942B988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE773E9E-2E8D-440B-B381-36080942B988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D6E4388-1E8E-4B3B-ABD4-B0E3595240F4}
+	EndGlobalSection
+EndGlobal
