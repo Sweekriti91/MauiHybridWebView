@@ -8,5 +8,12 @@ public partial class NewsFeedPage : ContentPage
 		#if DEBUG
             myHybridWebView.EnableWebDevTools = true;
 		#endif
+
+	}
+
+	protected override async void OnAppearing()
+	{
+		base.OnAppearing();
+		await myHybridWebView.InvokeJsMethodAsync("setAmityTabView", "news");
 	}
 }
