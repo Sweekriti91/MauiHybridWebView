@@ -7,15 +7,12 @@ public partial class GroupPage : ContentPage
 		InitializeComponent();
 		#if DEBUG
             myHybridWebView.EnableWebDevTools = true;
-		#endif
-	}
+#endif
+    }
 
-	protected override async void OnAppearing()
-	{
-		base.OnAppearing();
-        //await myHybridWebView.InvokeJsMethodAsync("setAmityTabView", "group");
-
-        _ = await MainThread.InvokeOnMainThreadAsync(async () =>
-               await myHybridWebView.InvokeJsMethodAsync("testValSetData", "group"));
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await myHybridWebView.InvokeJsMethodAsync("setTabValue", "group");
     }
 }
